@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        *{
+            padding: 0;margin: 0;box-sizing: border-box ;
+        }
+         .box{
+            width: 300px;
+            background-color: chartreuse;
+            overflow: hidden;
+            border:2px solid yellow ;
+            margin-bottom: 30px;
+            height: 400px;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 20px;
+        
+        }
+        #box1{
+            background-color: aquamarine;
+        }
+        #box2{
+            background-color:chocolate;
+        }
+        #box3{
+            background-color:blue;
+        }
+        #box4{
+            background-color:cornflowerblue;
+        }
+        #container
+        {
+            display: inline-flex;
+        }
+        .box img{
+            width: 100%;
+            height: 150px;
+            border-radius: 20px;
+            padding: 0px;
+        }
+        .box h2{
+            text-align: center;
+            margin: 10px;
+        }
+        .mybutton
+        {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+            background-color:red ;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        .image :hover
+        {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div  class="box" id="box1">
+        <div class="image">
+            <img src="./W.jpeg" alt="">
+        </div>
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, non enim dolorum nesciunt doloribus impedit voluptatibus et beatae consectetur ad debitis doloremque deser 
+    </p>
+    <div class="image" style="text-align: center" >
+    <a href="#" class="mybutton">Read more </a>
+</div>
+</div>
+    <div  class="box" id="box2">
+        <div class="image1">
+            <img src="./W.jpeg" alt="">
+        </div>
+        
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, non enim dolorum nesciunt doloribus impedit voluptatibus et beatae consectetur ad debitis doloremque deser
+    </p>
+    <div class="image11" style="text-align: center;">
+        <a href="#"class="mybutton">Read more</a>
+
+    </div>
+</div>
+    <div  class="box" id="box3">
+        <div class="image2">
+            <img src="./W.jpeg" alt="">
+        </div>
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, non enim dolorum nesciunt doloribus impedit voluptatibus et beatae consectetur ad debitis doloremque deser
+    </p>
+    <div>
+        <a href="#" class="mybutton" style="text-align: center;">Read More</a>
+    </div>
+</div>
+    <div  class="box" id="box4">
+        <div class=image3>
+            <img src="./W.jpeg" alt="">
+        </div>
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, non enim dolorum nesciunt doloribus impedit voluptatibus et beatae consectetur ad debitis doloremque deser
+
+    </p>
+    <div><a href="#"class="mybutton" style="text-align: center;">Read More</a></div>
+</div>
+</div>
+</body>
+</html>

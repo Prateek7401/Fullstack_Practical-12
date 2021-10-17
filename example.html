@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript Events</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+    <div class="container" id=div1 onclick="fun1()" onmouseover="fun2()" onmouseleave="fun3()">
+        <h2 id =h2 >This is an example of javascript events</h2>
+        <br>
+        <br>
+        <button type="button" id=input onclick="fun5()">Click me!</button>
+        <br>
+        <br>
+        <input type="text">
+
+        <script>
+            function fun1()
+            {
+                 var u=document.getElementById("div1");
+                 u.style.backgroundColor="yellow";
+            }
+            function fun2()
+            {
+                var y=document.getElementById("div1");
+                y.style.backgroundColor="red";
+
+            }
+             function fun3()
+             {
+                 var t=document.getElementById("div1");
+                 t.style.backgroundColor="blue";
+             }
+             function fun5()
+             {
+                 var i=document.getElementById("h2");
+                i.innerHTML="Good One";
+
+             }
+        </script>
+    </div>
+    
+</body>
+</html>
